@@ -122,7 +122,7 @@ export const AuthProvider = ({ children }) => {
                 return err.message || "Registration failed.";
             }
 
-            navigate("/");
+            navigate("/success");
             return "";
         } catch (err) { 
             return "Network error.";
